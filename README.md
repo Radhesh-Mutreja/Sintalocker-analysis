@@ -6,7 +6,7 @@ A behavioral analysis of **SintaLocker**, a 2017-era Windows ransomware family (
 
 ## Why this exists
 
-Understanding how malware actually behaves — not just "ransomware encrypts your files" but the specific sequence of anti-recovery, lockdown, persistence, and backdoor steps a real sample takes — is what turns a detection rule from a generic signature into something grounded in real attacker behavior. This report is the analysis-side companion to my [Wazuh Detection Lab](https://github.com/nullRdx/wazuh-detection-lab), where several of the detection rules referenced here (Run key persistence, shadow copy deletion, backdoor account creation) are built and tested against simulated attacks.
+Understanding how malware actually behaves — not just "ransomware encrypts your files" but the specific sequence of anti-recovery, lockdown, persistence, and backdoor steps a real sample takes — is what turns a detection rule from a generic signature into something grounded in real attacker behavior. 
 
 ## What's covered
 
