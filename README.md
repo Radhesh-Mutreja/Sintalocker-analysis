@@ -2,11 +2,10 @@
 
 A behavioral analysis of **SintaLocker**, a 2017-era Windows ransomware family (CryPy variant), broken down stage by stage and mapped to MITRE ATT&CK, with detection rules and mitigations for each stage.
 
-> **Note on scope:** this is a defensive/analytical writeup, not a working copy of the malware. Functional encryption and C2 communication code have been deliberately excluded — the value of a report like this is in the behavioral breakdown and detection logic, not a reproducible sample.
-
+> **Note on scope:** this is a defensive/analytical writeup.
 ## Why this exists
 
-Understanding how malware actually behaves — not just "ransomware encrypts your files" but the specific sequence of anti-recovery, lockdown, persistence, and backdoor steps a real sample takes — is what turns a detection rule from a generic signature into something grounded in real attacker behavior. 
+Understanding how malware actually behaves — not just "ransomware encrypts your files" but the specific sequence of anti-recovery, lockdown, persistence, and backdoor steps a real sample takes is what turns a detection rule from a generic signature into something grounded in real attacker behavior. 
 
 ## What's covered
 
